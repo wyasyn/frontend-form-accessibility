@@ -89,8 +89,8 @@ export function MainItem() {
                                 className=" outline outline-1 outline-white rounded-sm ml-auto cursor-pointer "
                                 onClick={() => setMessage(false)}
                             >
-                                {" "}
                                 <X size={16} />{" "}
+                                <span className="sr-only">close message</span>
                             </div>
                         </h2>
                         <p className=" text-pretty ">
